@@ -13,3 +13,9 @@ def test_divide():
 def test_subtract():
 	assert cal1.subtract(3, 2) == 1
 	assert cal1.subtract(5, 9) == -4
+
+def test_divide()
+	assert cal1.divide(0, 1) == 0
+	assert cal1.divide(9, 3) == 3
+	assert cal1.divide(7, 0) == 0
+
